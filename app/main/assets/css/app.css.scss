@@ -1,0 +1,46 @@
+// Place your apps css here
+.conversation {
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.new-message {
+  form {
+    input {
+      margin: 10px 0 5px 0;
+    }
+  }
+}
+
+.contact {
+  width: 100%;
+  padding: 5px;
+  margin: 4px 0;
+  font-size: 15px;
+  cursor: pointer;
+
+  &:hover {
+    backgrond-color: #FAFAFA;
+  }
+
+  &.active {
+    background-color: #337ab7;
+    color: #FFF;
+  }
+
+  .badge {
+    background-color: #900;
+  }
+}
+
+.message {
+  max-width: 80%;
+  padding: 5px 8px;
+  margin: 5px 0;
+  float: left;
+  clear: both;
+
+  p {
+  	margin: 0;
+  }
+}
